@@ -6,8 +6,7 @@ function main() {
     var operator = (0, readline_sync_1.question)('Enter operator:\n');
     var secondStr = (0, readline_sync_1.question)('Enter the second number:\n');
     var validInput = isNumber(firstStr) && isOperator(operator) && isNumber(secondStr);
-    // const answer: number = 
-    console.log(validInput);
+    // console.log(validInput);
     if (validInput) {
         var firstNum = parseInt(firstStr);
         var secondNum = parseInt(secondStr);
